@@ -1,10 +1,8 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import ProjectsBackground from "./ProjectsBackground";
 import ProjetImages from "../../public/images/ba.png";
 import ProjetImage2 from "../../public/images/cata.png";
 import ProjetImage3 from "../../public/images/city.png";
-import { a } from "framer-motion/client";
 
 export default function Projects() {
   const projects = [
@@ -34,7 +32,6 @@ export default function Projects() {
       className="py-24 bg-black"
     >
       {/* Background 3D */}
-      <ProjectsBackground className="absolute inset-0 w-full h-full -z-10" />
       {/* Contenu centré */}
       <div className="relative z-10 max-w-6xl mx-auto px-6 flex flex-col items-center">
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-center">
