@@ -32,19 +32,6 @@ export default function Navbar() {
         >
           Yves<span className="text-indigo-400">Dev</span>
         </motion.h1>
-
-    
-
-        {/* Hamburger mobile */}
-        <div className="md:hidden">
-          <button onClick={() => setIsOpen(!isOpen)}>
-            {isOpen ? (
-              <FiX className="text-white text-3xl" />
-            ) : (
-              <FiMenu className="text-white text-3xl" />
-            )}
-          </button>
-        </div>
       </nav>
     </header>
   );

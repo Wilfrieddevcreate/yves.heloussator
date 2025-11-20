@@ -31,7 +31,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="relative w-full min-h-screen flex flex-col justify-center py-24 bg-black"
+      className="relative w-full flex flex-col justify-center py-24 bg-black"
     >
       {/* Background 3D */}
       <ProjectsBackground className="absolute inset-0 w-full h-full -z-10" />
