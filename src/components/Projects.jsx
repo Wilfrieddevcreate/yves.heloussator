@@ -12,19 +12,8 @@ export default function Projects() {
       description: "Portfolio d'une docteure en lettres modernes.",
       img: ProjetImages,
       link: "https://baikoovi.vercel.app/",
-    },
-    {
-      title: "Catalogue Whatsapp",
-      description: "Interface moderne inspirée du catalogue de WhatsApp.",
-      img: ProjetImage2,
-      link: "https://showroomducostume.vercel.app/",
-    },
-    {
-      title: "Agribusiness",
-      description: "Boutique en ligne pour des produits agricoles.",
-      img: ProjetImage3,
-      link: "https://aya-tchad.org/",
-    },
+    }
+      
   ];
 
   return (
